@@ -1,0 +1,182 @@
+*{
+    min-width: auto;
+    max-width: 1920px;
+}
+
+body {
+    background-color: rgb(26, 26, 26);
+    margin: 0;
+   min-height: 100vh;
+}
+/*Barra de navegação*/
+#navbar {
+    background-color: rgb(00, 00, 00);
+    display: grid;
+    align-items: center;
+   position:fixed;
+
+   top:0;
+   left:0;
+   right: 0;
+
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+   z-index: 1000;
+   
+   max-width:  1920px; 
+}
+
+.button-nav {
+    background-color: red;
+    margin: 1rem;
+    font-weight: 700;
+    font-size: x-large;
+    grid-column: 1;
+}
+
+.button-nav:hover{
+    color: white;
+    transition: 0.25s;
+}
+
+#atual {
+    color:white;
+}
+
+#H1principal {
+    margin: 0;
+    grid-column: 3;
+}
+
+#H1principal a{
+text-decoration: none;
+color: red;
+}
+
+#H1principal a:hover{
+color: darkred;
+transition-duration: 0.25s;
+}
+
+/*Texto*/
+p{
+    font-size: 2rem;
+    padding-left: 2vh;
+}
+
+h2{
+    color: rgb(74, 74, 74);
+    font-size:x-large;
+
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    padding: 1rem;
+    margin: 1rem;
+    height: 1rem;
+}
+
+.linksNO{
+    text-decoration: none;
+    color: inherit;
+}
+
+/*sections*/
+#musicas{
+    padding-top: 70px;
+    min-height: 140vh;
+    padding-bottom: 8%; 
+
+    color: white;
+    align-items: center;
+    overflow: auto;
+    scrollbar-color: red black;
+}
+
+#musicas a{
+    text-decoration: none;
+    color: inherit;
+}
+
+#musicas ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#musicas div{
+    /*min-width: 200px;
+    min-height: 200px;
+    background-color: red;*/
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#musicas img{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    border: 5%;
+    border-color: white;
+}
+
+#musicas h2{
+    color: white;
+    font: bolder;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+/*Rodapé*/
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: auto;
+    max-width: 1600px;
+    /*justify-content: space-between;*/
+}
+
+#socials img{
+    height: 6vh;
+    width: 6vh;
+}
+
+#socials h2 ul{
+    grid-column: 3;
+    justify-self: self-end;
+}
+
+#linkeds h2{
+    padding-left: 10%;
+}
+
+#linkeds li{
+    color: rgb(104, 104, 104);
+    font-size: x-large;
+}
+
+#linkeds a{
+     text-decoration: none;
+     color: rgb(104, 104, 104);
+}
+
+#linkeds ul{
+    display: flex;
+    grid-column: 1;
+    flex-direction: column;
+    padding-left: 10%;
+}
+
+#linkeds a:hover{
+    color: white;
+    transition-duration: 0.25s;
+}

@@ -1,0 +1,187 @@
+body {
+    background-color: rgb(26, 26, 26);
+    margin: 0;
+   min-height: 100vh;
+   max-width: 1600;
+}
+
+
+#navbar {
+    background-color: rgb(00, 00, 00);
+    display: grid;
+    align-items: center;
+   position:fixed;
+
+   top:0;
+   left:0;
+   right: 0;
+
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+   z-index: 1000;
+   
+}
+
+
+#sectioninicial {
+    min-width: auto;
+    max-width: 1600px;
+    background-color: red;
+    min-height: 100vh;
+    padding-top: 70px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+}
+
+#mavisnario {
+    grid-column: 2;
+}
+
+p{
+    font-size: 2rem;
+    padding-left: 2vh;
+}
+
+h2{
+    color: rgb(74, 74, 74);
+    font-size:x-large;
+
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    padding: 1rem;
+    margin: 1rem;
+    height: 1rem;
+}
+
+.button-nav {
+    background-color: red;
+    margin: 1rem;
+    font-weight: 700;
+    font-size: x-large;
+    grid-column: 1;
+
+    text-decoration: none;
+    color: black;
+}
+
+.button-nav:hover{
+    color: white;
+    transition: 0.25s;
+}
+
+#escutarbutton {
+     background-color: red;
+    color: black;
+    grid-column: 2;
+
+    margin-bottom: 10%;
+    height: 3rem;
+
+    border-color: black;
+    border-style: double;
+
+    font-size: xx-large;
+}
+
+#escutarbutton a:hover{
+    color: white;
+    transition-duration:0.25s;
+}
+
+#escutarbutton a{
+       text-decoration: none;
+    color: black;
+}
+
+#H1principal {
+    margin: 0;
+   /* left: 20%;
+    right: 40%;*/
+    grid-column: 3;
+}
+
+#H1principal a{
+text-decoration: none;
+color: red;
+}
+
+#H1principal a:hover{
+color: darkred;
+transition-duration: 0.25s;
+}
+
+#mavisdoido {
+    min-height: 6vh;
+    color:red;
+}
+
+#mavisdoido p{
+    padding-left: 2%;
+}
+
+#lostmidiasec{
+    background-image: url(../assets/imagens/fundolost.jpg);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+    flex-direction: column
+}
+
+#lostmidiasec h2{
+ font-size: 6vh;
+ color: white;
+ font-weight: bolder;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: auto;
+    max-width: 1600px;
+    /*justify-content: space-between;*/
+}
+
+#socials img{
+    height: 6vh;
+    width: 6vh;
+}
+
+#socials h2 ul{
+    grid-column: 3;
+    justify-self: self-end;
+}
+
+#linkeds h2{
+    padding-left: 10%;
+}
+
+#linkeds li{
+    color: rgb(104, 104, 104);
+    font-size: x-large;
+}
+
+#linkeds a{
+     text-decoration: none;
+     color: rgb(104, 104, 104);
+}
+
+#linkeds ul{
+    display: flex;
+    grid-column: 1;
+    flex-direction: column;
+    padding-left: 10%;
+    
+}
+
+#linkeds a:hover{
+    color: white;
+    transition-duration: 0.25s;
+}
