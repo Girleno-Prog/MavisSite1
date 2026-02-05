@@ -185,3 +185,42 @@ footer{
     color: white;
     transition-duration: 0.25s;
 }
+
+@media (max-width:600px) {
+    #navbar {
+    background-color: rgb(00, 00, 00);
+    display: grid;
+    align-items: center;
+   position:fixed;
+
+   top:0;
+   left:0;
+   right: 0;
+
+   grid-template-rows: 1fr 1fr;
+   z-index: 1000;
+   
+}
+
+#H1principal {
+    margin: 0;
+   /* left: 20%;
+    right: 40%;*/
+    grid-row: 1;
+}
+
+.button-nav {
+    background-color: red;
+    margin: 1rem;
+    font-weight: 700;
+    font-size: x-large;
+
+    text-decoration: none;
+    color: black;
+}
+
+#navbarUL{
+    grid-row: 2;
+}
+
+}
