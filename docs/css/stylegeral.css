@@ -2,7 +2,7 @@ body {
     background-color: rgb(26, 26, 26);
     margin: 0;
    min-height: 100vh;
-   max-width: 1600;
+   max-width: 100%;
 }
 
 
@@ -23,11 +23,10 @@ body {
 
 
 #sectioninicial {
-    min-width: auto;
-    max-width: 1600px;
+    max-width: 100%;
     background-color: red;
     min-height: 100vh;
-    padding-top: 70px;
+    padding-top: 3%;
 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -79,13 +78,14 @@ ul{
     color: black;
     grid-column: 2;
 
-    margin-bottom: 10%;
+    margin-bottom: 5%;
     height: 3rem;
 
     border-color: black;
     border-style: double;
 
     font-size: xx-large;
+    width: 100%;
 }
 
 #escutarbutton a:hover{
@@ -116,7 +116,7 @@ transition-duration: 0.25s;
 }
 
 #mavisdoido {
-    min-height: 6vh;
+    min-height: 3vh;
     color:red;
 }
 
@@ -130,7 +130,6 @@ transition-duration: 0.25s;
     display: flex;
     align-items: center;
     width: 100%;
-    max-width: 1600px;
     margin: 0 auto;
     flex-direction: column
 }
@@ -144,8 +143,7 @@ transition-duration: 0.25s;
 footer{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    width: auto;
-    max-width: 1600px;
+    max-width: 100%;
     /*justify-content: space-between;*/
 }
 
@@ -228,9 +226,12 @@ footer{
 @media (max-width:600px) {
 
 body{
-    max-width: 100%;
+    width: 100%;
     
 }
+    #sectioninicial{
+        padding-top:20% ;
+    }
 
     #navbar {
     background-color: rgb(00, 00, 00);
@@ -260,7 +261,9 @@ body{
 
 #video{
     width: 100%;
-    max-width: 360px;
+    max-width: 800px;
+    height: auto;
+    min-height: 320px;
 }
 
 }
