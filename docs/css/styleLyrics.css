@@ -107,7 +107,7 @@ ul{
     display: flex;
     list-style: none;
     gap: 20px;
-    padding: 1rem;
+    padding: 0.5rem;
     margin: 1rem;
     height: 1rem;
 }
@@ -138,8 +138,8 @@ ul{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 #musicas div{
@@ -153,8 +153,8 @@ ul{
 }
 
 #musicas img{
-    height: 200px;
-    width: 200px;
+    height: 35vh;
+    width: 35vh;
     background-color: red;
     border: 5%;
     border-color: white;
@@ -264,4 +264,11 @@ body{
     padding-left: 10%;
 }
 
+}
+
+@media (max-width:350px){
+    #musicas ul{
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+}
 }
