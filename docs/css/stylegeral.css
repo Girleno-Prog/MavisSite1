@@ -223,15 +223,13 @@ footer{
 
 }
 
+/*Media Querie*/
 @media (max-width:600px) {
 
 body{
     width: 100%;
     
 }
-    #sectioninicial{
-        padding-top:20% ;
-    }
 
     #navbar {
     background-color: rgb(00, 00, 00);
@@ -259,11 +257,13 @@ body{
     
 }
 
-#video{
-    width: 100%;
-    max-width: 800px;
-    height: auto;
-    min-height: 320px;
+#musicas {
+    min-height:770vh;
+}
+
+#musicas ul{
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
 }
 
 #socials{
@@ -272,8 +272,17 @@ body{
     flex-direction: column;
 }
 
-#socials h2{
-    padding-left: 10%;
+#linkeds a{
+     font-weight: 400;
+}
+
+#socials img{
+    height: 2rem;
+    width: 2rem;
+}
+
+footer{
+    grid-template-columns: 1fr;
 }
 
 }

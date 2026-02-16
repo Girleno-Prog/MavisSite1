@@ -1,12 +1,13 @@
 *{
-    min-width: auto;
-    max-width: 1920px;
+  box-sizing: border-box;
 }
 
 body {
     background-color: rgb(26, 26, 26);
-    margin: 0;
+    margin: 0 auto;
    min-height: 100vh;
+   max-width: 1920px;
+   overflow-x: hidden;
 }
 /*Barra de navegação*/
 #navbar {
@@ -57,44 +58,10 @@ transition-duration: 0.25s;
     color: white;
 }
 
-@media (max-width:600px) {
-
-body{
-    max-width: 100%;
-    
-}
-
-    #navbar {
-    background-color: rgb(00, 00, 00);
-    display: flex;
-    flex-direction: column;
-   position:fixed;
-    max-width: 100%;
-   top:0;
-   left:0;
-   right: 0;
-
-   z-index: 1000;
-}
-
-.button-nav {
-    background-color: red;
-    margin: 1rem;
-    font-weight: 700;
-    font-size: x-large;
-    grid-row:1;
-}
-
-#H1principal{
-    grid-row: 2;
-    
-}
-}
-
 /*Texto*/
 p{
     font-size: 2rem;
-    padding-left: 2vh;
+   /* padding-left: 1vh;*/
 }
 
 h2{
@@ -109,7 +76,6 @@ ul{
     gap: 20px;
     padding: 1rem;
     margin: 1rem;
-    height: 1rem;
 }
 
 .linksNO{
@@ -120,13 +86,12 @@ ul{
 /*sections*/
 #musicas{
     padding-top: 70px;
-    min-height: 140vh;
     padding-bottom: 8%; 
-
+    min-height: 235vh;
     color: white;
     align-items: center;
-    overflow: auto;
-    scrollbar-color: red black;
+   /*rflow: auto;
+    scrollbar-color: red black;*/
 }
 
 #musicas a{
@@ -153,10 +118,10 @@ ul{
 }
 
 #musicas img{
-    height: 35vh;
-    width: 35vh;
+    height: 15rem;
+    width: 15rem;
     background-color: red;
-    border: 5%;
+   /* border: 5%;*/
     border-color: white;
 }
 
@@ -180,8 +145,8 @@ footer{
 }
 
 #socials img{
-    height: 6vh;
-    width: 6vh;
+    height: 3rem;
+    width: 3rem;
 }
 
 #socials h2 ul{
@@ -193,12 +158,12 @@ footer{
     padding-left: 10%;
 }
 
-#linkeds li{
+footer li{
     color: rgb(104, 104, 104);
     font-size: x-large;
 }
 
-#linkeds a{
+footer a{
      text-decoration: none;
      color: rgb(104, 104, 104);
 }
@@ -210,7 +175,7 @@ footer{
     padding-left: 10%;
 }
 
-#linkeds a:hover{
+footer a:hover{
     color: white;
     transition-duration: 0.25s;
 }
@@ -249,8 +214,12 @@ body{
     
 }
 
+#musicas {
+    min-height:770vh;
+}
+
 #musicas ul{
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-template-rows: auto;
 }
 
@@ -260,8 +229,17 @@ body{
     flex-direction: column;
 }
 
-#socials h2{
-    padding-left: 10%;
+#linkeds a{
+     font-weight: 400;
+}
+
+#socials img{
+    height: 2rem;
+    width: 2rem;
+}
+
+footer{
+    grid-template-columns: 1fr;
 }
 
 }
