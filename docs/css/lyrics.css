@@ -162,6 +162,14 @@ a{
 }
 
 /*Rodapé*/
+
+hr {
+    background-color: rgb(104, 104, 104);
+   /* border: none;
+    height: 2px;*/
+}
+
+
 footer{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -242,7 +250,7 @@ body{
 }
 
 #musicas {
-    min-height:770vh;
+    min-height:100%;
 }
 
 #musicas ul{
@@ -268,6 +276,4 @@ body{
 footer{
     grid-template-columns: 1fr;
 }
-
 }
-

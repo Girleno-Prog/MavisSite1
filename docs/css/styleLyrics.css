@@ -135,11 +135,19 @@ a{
 }
 
 /*Rodapé*/
+
+hr {
+    background-color: rgb(104, 104, 104);
+    border: none;
+    height: 2px;
+    width: 100%;
+}
+
 footer{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     width: auto;
-    max-width: 1600px;
+    max-width: 100%;
     /*justify-content: space-between;*/
 }
 
@@ -214,7 +222,7 @@ body{
 }
 
 #musicas {
-    min-height:770vh;
+    min-height:100%;
 }
 
 #musicas ul{
@@ -222,10 +230,20 @@ body{
     grid-template-rows: auto;
 }
 
+footer{
+ text-align:left;
+ display: flex;
+ flex-direction: column;
+}
+
 #socials{
-    padding-left: 7%;
+    padding-left: 10%;
     display: flex;
     flex-direction: column;
+}
+
+#linkeds{
+    padding-bottom: 0;
 }
 
 #linkeds a{
@@ -237,10 +255,9 @@ body{
     width: 2rem;
 }
 
-footer{
-    grid-template-columns: 1fr;
+#email{
+    padding-left: 10%;
 }
-
 }
 
 @media (max-width:350px){

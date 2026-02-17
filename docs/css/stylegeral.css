@@ -57,7 +57,6 @@ ul{
     gap: 20px;
     padding: 1rem;
     margin: 1rem;
-    height: 1rem;
 }
 
 .button-nav {
@@ -143,6 +142,15 @@ transition-duration: 0.25s;
  font-weight: bolder;
 }
 
+
+hr {
+    background-color: rgb(104, 104, 104);
+    border: none;
+    height: 2px;
+    width: 100%;
+}
+
+
 footer{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -222,14 +230,23 @@ body{
     
 }
 
+footer{
+ text-align:left;
+ display: flex;
+ flex-direction: column;
+}
 
 #socials{
-    padding-left: 7%;
+    padding-left: 10%;
     display: flex;
     flex-direction: column;
 }
 
-footer a{
+#linkeds{
+    padding-bottom: 0;
+}
+
+#linkeds a{
      font-weight: 400;
 }
 
@@ -238,8 +255,8 @@ footer a{
     width: 2rem;
 }
 
-footer{
-    grid-template-columns: 1fr;
+#email{
+    padding-left: 10%;
 }
 
 #mavisnario img{
