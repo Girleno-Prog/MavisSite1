@@ -216,6 +216,10 @@ body{
     
 }
 
+footer{
+    padding-top: 5%;
+}
+
 #musicas {
     min-height:770vh;
 }
