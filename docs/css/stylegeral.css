@@ -3,6 +3,9 @@ body {
     margin: 0;
    min-height: 100vh;
    max-width: 100%;
+
+   display: grid;
+   grid-template-columns: 1fr;
 }
 
 
@@ -166,7 +169,7 @@ footer{
     font-size: x-large;
 }
 
-#linkeds a{
+footer a{
      text-decoration: none;
      color: rgb(104, 104, 104);
 }
@@ -179,49 +182,11 @@ footer{
     
 }
 
-#linkeds a:hover{
+footer a:hover{
     color: white;
     transition-duration: 0.25s;
 }
 
-@media (max-width:600px) {
-    #navbar {
-    background-color: rgb(00, 00, 00);
-    display: grid;
-    align-items: center;
-   position:fixed;
-
-   top:0;
-   left:0;
-   right: 0;
-
-   grid-template-rows: 1fr 1fr;
-   z-index: 1000;
-   
-}
-
-#H1principal {
-    margin: 0;
-   /* left: 20%;
-    right: 40%;*/
-    grid-row: 1;
-}
-
-.button-nav {
-    background-color: red;
-    margin: 1rem;
-    font-weight: 700;
-    font-size: x-large;
-
-    text-decoration: none;
-    color: black;
-}
-
-#navbarUL{
-    grid-row: 2;
-}
-
-}
 
 /*Media Querie*/
 @media (max-width:600px) {
@@ -257,14 +222,6 @@ body{
     
 }
 
-#musicas {
-    min-height:770vh;
-}
-
-#musicas ul{
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-}
 
 #socials{
     padding-left: 7%;
@@ -272,7 +229,7 @@ body{
     flex-direction: column;
 }
 
-#linkeds a{
+footer a{
      font-weight: 400;
 }
 
@@ -283,6 +240,15 @@ body{
 
 footer{
     grid-template-columns: 1fr;
+}
+
+#mavisnario img{
+    max-height: 30px;
+    max-width: 2rem;
+}
+
+#mavisnario{
+    padding-top: 10%;
 }
 
 }
