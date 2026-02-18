@@ -143,18 +143,12 @@ transition-duration: 0.25s;
 }
 
 
-hr {
-    background-color: rgb(104, 104, 104);
-    border: none;
-    height: 2px;
-    width: 100%;
-}
-
-
 footer{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    max-width: 100%;
+    width: 100%;
+    left: 0;
+    border-top:2px solid rgb(104, 104, 104);
     /*justify-content: space-between;*/
 }
 
@@ -234,6 +228,7 @@ footer{
  text-align:left;
  display: flex;
  flex-direction: column;
+ min-width: 100%;
 }
 
 #socials{

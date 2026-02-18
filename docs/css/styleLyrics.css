@@ -24,6 +24,7 @@ body {
    z-index: 1000;
    
    max-width:  1920px; 
+  animation: none;
 }
 
 .button-nav {
@@ -85,7 +86,7 @@ ul{
 
 /*sections*/
 #musicas{
-    padding-top: 70px;
+    padding-top: 7%;
     padding-bottom: 8%; 
     color: white;
     align-items: center;
@@ -136,18 +137,12 @@ a{
 
 /*Rodapé*/
 
-hr {
-    background-color: rgb(104, 104, 104);
-    border: none;
-    height: 2px;
-    width: 100%;
-}
-
 footer{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    width: auto;
-    max-width: 100%;
+    width: 100%;
+    left: 0;
+    border-top:2px solid rgb(104, 104, 104);
     /*justify-content: space-between;*/
 }
 
@@ -242,9 +237,6 @@ footer{
     flex-direction: column;
 }
 
-#linkeds{
-    padding-bottom: 0;
-}
 
 #linkeds a{
      font-weight: 400;

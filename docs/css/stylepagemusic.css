@@ -138,19 +138,12 @@ a{
 
 /*Rodapé*/
 
-hr {
-    background-color: rgb(104, 104, 104);
-    border: none;
-    height: 2px;
-    width: 100%;
-}
-
-
 footer{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    width: auto;
-    max-width: 1600px;
+    width: 100%;
+    left: 0;
+    border-top:2px solid rgb(104, 104, 104);
     /*justify-content: space-between;*/
 }
 
