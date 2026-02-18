@@ -232,14 +232,12 @@ footer{
  flex-direction: column;
 }
 
-#socials{
-    padding-left: 10%;
-    display: flex;
-    flex-direction: column;
+#linkeds h2{
+    padding-left: 1vw;
 }
 
-#linkeds{
-    padding-bottom: 0;
+#linkeds ul{
+    padding-left: 1vw;
 }
 
 #linkeds a{
@@ -252,9 +250,14 @@ footer{
 }
 
 #email{
-    padding-left: 10%;
+    padding-left: 1vw;
+}
+
+#email ul{
+    padding-left: 1vw;
 }
 }
+
 
 @media (max-width:350px){
     #musicas ul{

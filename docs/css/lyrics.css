@@ -254,10 +254,12 @@ body{
     grid-template-rows: auto;
 }
 
-#socials{
-    padding-left: 7%;
-    display: flex;
-    flex-direction: column;
+#linkeds h2{
+    padding-left: 1vw;
+}
+
+#linkeds ul{
+    padding-left: 1vw;
 }
 
 #linkeds a{
@@ -267,6 +269,14 @@ body{
 #socials img{
     height: 2rem;
     width: 2rem;
+}
+
+#email{
+    padding-left: 1vw;
+}
+
+#email ul{
+    padding-left: 1vw;
 }
 
 footer{

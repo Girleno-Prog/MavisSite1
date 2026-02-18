@@ -1,3 +1,8 @@
+* {
+    box-sizing: border-box;
+}
+
+
 body {
     background-color: rgb(26, 26, 26);
     margin: 0;
@@ -26,14 +31,13 @@ body {
 
 
 #sectioninicial {
-    max-width: 100%;
+    width: 100%;
     background-color: red;
     min-height: 100vh;
-    padding-top: 3%;
-
+    padding-top: 80px; /* Use px fixo para evitar que o navbar cubra o topo */
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto auto auto;
+    align-items: center; /* Centraliza o conteúdo verticalmente */
 }
 
 #mavisnario {
@@ -137,7 +141,7 @@ transition-duration: 0.25s;
 }
 
 #lostmidiasec h2{
- font-size: 6vh;
+ font-size: 5rem;
  color: white;
  font-weight: bolder;
 }
@@ -224,11 +228,18 @@ body{
     
 }
 
+#sectioninicial{
+   display:flex;
+   flex-direction: column;
+}
+
 footer{
  text-align:left;
  display: flex;
  flex-direction: column;
  min-width: 100%;
+ left:0;
+ right:0;
 }
 
 #socials{
@@ -237,8 +248,12 @@ footer{
     flex-direction: column;
 }
 
-#linkeds{
-    padding-bottom: 0;
+#linkeds h2{
+    padding-left: 1vw;
+}
+
+#linkeds ul{
+    padding-left: 1vw;
 }
 
 #linkeds a{
@@ -251,10 +266,13 @@ footer{
 }
 
 #email{
-    padding-left: 10%;
+    padding-left: 1vw;
 }
 
-#mavisnario img{
+#email ul{
+    padding-left: 1vw;
+}
+/*#mavisnario img{
     max-height: 30px;
     max-width: 2rem;
 }
@@ -262,5 +280,5 @@ footer{
 #mavisnario{
     padding-top: 10%;
 }
-
+*/
 }

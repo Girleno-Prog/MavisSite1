@@ -215,7 +215,7 @@ body{
 }
 
 #imagem img{
-    padding-top: 20%;
+    padding-top: 90px;
 }
 
 
@@ -223,16 +223,28 @@ footer{
  text-align:left;
  display: flex;
  flex-direction: column;
+ min-width: 100%;
+ left:0;
+ right:0;
 }
 
+
 #socials{
-    padding-left: 10%;
+    padding-left: 5px;
     display: flex;
     flex-direction: column;
 }
 
 #linkeds{
     padding-bottom: 0;
+}
+
+#linkeds h2{
+    padding-left: 1vw;
+}
+
+#linkeds ul{
+    padding-left: 1vw;
 }
 
 #linkeds a{
@@ -245,6 +257,11 @@ footer{
 }
 
 #email{
-    padding-left: 10%;
+    padding-left: 1vw;
 }
+
+#email ul{
+    padding-left: 1vw;
+}
+
  }

@@ -231,12 +231,13 @@ footer{
  flex-direction: column;
 }
 
-#socials{
-    padding-left: 10%;
-    display: flex;
-    flex-direction: column;
+#linkeds h2{
+    padding-left: 1vw;
 }
 
+#linkeds ul{
+    padding-left: 1vw;
+}
 
 #linkeds a{
      font-weight: 400;
@@ -248,7 +249,11 @@ footer{
 }
 
 #email{
-    padding-left: 10%;
+    padding-left: 1vw;
+}
+
+#email ul{
+    padding-left: 1vw;
 }
 }
 
