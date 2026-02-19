@@ -110,7 +110,6 @@ ul{
     gap: 20px;
     padding: 1rem;
     margin: 1rem;
-    height: 1rem;
 }
 
 .linksNO{
@@ -134,7 +133,7 @@ a{
 
 #imagem {
     height: auto;
-    width: auto;
+    width: 100%;
 }
 
 #letra{
@@ -143,6 +142,7 @@ a{
     gap: 2rem;
     align-items: center;
     padding-bottom: 5%;
+    padding-top: 25px;
 }
 
 
@@ -245,13 +245,19 @@ body{
     
 }
 
-#musicas {
-    min-height:100%;
+#imagem{
+    align-items: center;
 }
 
-#musicas ul{
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
+#letra{
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px;
+    text-align:left;
+}
+
+#texto{
+    width: 80%;
 }
 
 #linkeds h2{

@@ -130,9 +130,14 @@ ul{
     font: bolder;
 }
 
-a{
+#musicas a{
     text-decoration: none;
     color: inherit;
+}
+
+#musicas a:hover{
+    transition-duration: 0.25s;
+    color: red;
 }
 
 /*Rodapé*/
