@@ -33,6 +33,8 @@ body {
     font-weight: 700;
     font-size: x-large;
     grid-column: 1;
+    color:inherit;
+    text-decoration: none;
 }
 
 .button-nav:hover{
@@ -94,11 +96,6 @@ ul{
     scrollbar-color: red black;*/
 }
 
-#musicas a{
-    text-decoration: none;
-    color: inherit;
-}
-
 #musicas ul{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -135,7 +132,7 @@ ul{
     color: inherit;
 }
 
-#musicas a:hover{
+#musicas h2:hover{
     transition-duration: 0.25s;
     color: red;
 }
