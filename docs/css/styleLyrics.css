@@ -88,10 +88,10 @@ ul{
 
 /*sections*/
 #musicas{
-    padding-top: 7%;
-    padding-bottom: 8%; 
+    padding-top: 70px;
     color: white;
     align-items: center;
+    padding-top: 100px;
    /*rflow: auto;
     scrollbar-color: red black;*/
 }
