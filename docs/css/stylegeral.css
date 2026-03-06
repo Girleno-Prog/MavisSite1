@@ -237,15 +237,6 @@ footer{
  text-align:left;
  display: flex;
  flex-direction: column;
- min-width: 100%;
- left:0;
- right:0;
-}
-
-#socials{
-    padding-left: 10%;
-    display: flex;
-    flex-direction: column;
 }
 
 #linkeds h2{
@@ -272,13 +263,4 @@ footer{
 #email ul{
     padding-left: 1vw;
 }
-/*#mavisnario img{
-    max-height: 30px;
-    max-width: 2rem;
-}
-
-#mavisnario{
-    padding-top: 10%;
-}
-*/
 }
